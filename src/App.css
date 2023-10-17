@@ -1,0 +1,44 @@
+.stop {
+  background-color: red;
+}
+
+.wait {
+  background-color: yellow;
+}
+
+.go {
+  background-color: green;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.light:not(.on) {
+  background-color: gray;
+}
+
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.set-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+body {
+  justify-content: center;
+}
